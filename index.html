@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLACK MONKEY | Barbería Premium</title>
+  <meta name="description" content="Barbería Black Monkey. Cortes de cabello, arreglos de barba y estilo premium.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="img/logo.png" alt="Black Monkey Logo">
+        <span>BLACK MONKEY</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#cortes">Cortes</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#nosotros">El Barbero</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <img src="img/logo.png" alt="Black Monkey Barber" class="hero-logo reveal">
+      <h1 class="reveal">BLACK MONKEY</h1>
+      <p class="tagline reveal">Estilo, Elegancia y Actitud</p>
+      <a href="https://wa.me/59175233556" target="_blank" class="hero-cta reveal">Reserva tu Cita</a>
+    </div>
+    <div class="scroll-indicator"><span></span></div>
+  </header>
+
+  <!-- REAL-TIME HOURS -->
+  <section class="hours-section section reveal">
+    <div class="hours-container">
+      <div class="hours-status">
+        <div class="status-indicator">
+          <div class="status-dot"></div>
+          <span class="status-text">Cargando...</span>
+        </div>
+        <div class="next-open"></div>
+      </div>
+      <div class="hours-table">
+        <table>
+          <tr><td>Lunes</td><td>9:00 - 20:00</td></tr>
+          <tr><td>Martes</td><td>9:00 - 20:00</td></tr>
+          <tr><td>Miércoles</td><td>9:00 - 20:00</td></tr>
+          <tr><td>Jueves</td><td>9:00 - 20:00</td></tr>
+          <tr><td>Viernes</td><td>9:00 - 20:00</td></tr>
+          <tr><td>Sábado</td><td>9:00 - 20:00</td></tr>
+          <tr><td>Domingo</td><td>Cerrado</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="servicios" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">Nuestros Servicios</span>
+      <h2 class="section-title">Cortes de Alta <span class="highlight">Gama</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="services-tabs">
+      <button class="tab-btn active" data-tab="hombres">Varones</button>
+      <button class="tab-btn" data-tab="mujeres">Mujeres</button>
+    </div>
+    <div id="hombres" class="tab-content active">
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">✂️</div>
+          <h3 class="service-name">Corte Clásico o Fade</h3>
+          <p class="service-desc">Asesoramiento, lavado, corte con tijera o máquina, perfilado y peinado con producto premium.</p>
+          <div class="service-price">80 Bs <small>aprox.</small></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🧔</div>
+          <h3 class="service-name">Perfilado de Barba</h3>
+          <p class="service-desc">Recorte, alineación, toalla caliente, vapor ozono y aplicación de aceites hidratantes.</p>
+          <div class="service-price">40 Bs <small>aprox.</small></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👑</div>
+          <h3 class="service-name">Combo VIP Black Monkey</h3>
+          <p class="service-desc">Corte, barba, limpieza facial express con mascarilla negra y masaje craneal.</p>
+          <div class="service-price">140 Bs <small>aprox.</small></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌀</div>
+          <h3 class="service-name">Ondas / Permanente</h3>
+          <p class="service-desc">Ondas semi-onduladas permanentes. Dale un nuevo estilo y volumen a tu cabello.</p>
+          <div class="service-price">Desde 80 Bs</div>
+        </div>
+      </div>
+    </div>
+    <div id="mujeres" class="tab-content">
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">✂️</div>
+          <h3 class="service-name">Corte Moderno</h3>
+          <p class="service-desc">Cortes en capas, bob, pixie y estilos contemporáneos con asesoramiento de imagen.</p>
+          <div class="service-price">Desde 90 Bs</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3 class="service-name">Color y Reflejos</h3>
+          <p class="service-desc">Técnicas modernas de coloración, balayage y mechas con productos que cuidan tu cabello.</p>
+          <div class="service-price">Consultar</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HAIRCUTS / STYLES TO CHOOSE -->
+  <section id="cortes" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">Galería de Estilos</span>
+      <h2 class="section-title">Elige tu <span class="highlight">Corte</span></h2>
+      <p class="section-subtitle">Explora nuestra selección de cortes más populares. Encuentra el estilo que mejor te represente.</p>
+      <div class="divider"></div>
+    </div>
+    <div class="haircuts-grid">
+      <div class="haircut-card">
+        <img src="img/haircut-fade.png" alt="Skin Fade">
+        <div class="haircut-overlay">
+          <h3 class="haircut-name">Skin Fade</h3>
+          <span class="haircut-price">Tendencia</span>
+          <a href="https://wa.me/59175233556?text=Quiero%20agendar%20un%20corte%20Skin%20Fade" target="_blank" class="haircut-cta">Quiero este estilo</a>
+        </div>
+      </div>
+      <div class="haircut-card">
+        <img src="img/haircut-pompadour.png" alt="Pompadour Clásico">
+        <div class="haircut-overlay">
+          <h3 class="haircut-name">Pompadour Clásico</h3>
+          <span class="haircut-price">Elegante</span>
+          <a href="https://wa.me/59175233556?text=Quiero%20agendar%20un%20corte%20Pompadour" target="_blank" class="haircut-cta">Quiero este estilo</a>
+        </div>
+      </div>
+      <div class="haircut-card">
+        <img src="img/haircut-buzz.png" alt="Buzz Cut Texturizado">
+        <div class="haircut-overlay">
+          <h3 class="haircut-name">Buzz Cut</h3>
+          <span class="haircut-price">Limpio y Fresco</span>
+          <a href="https://wa.me/59175233556?text=Quiero%20agendar%20un%20corte%20Buzz%20Cut" target="_blank" class="haircut-cta">Quiero este estilo</a>
+        </div>
+      </div>
+      <div class="haircut-card">
+        <img src="img/haircut-mullet.png" alt="Modern Mullet">
+        <div class="haircut-overlay">
+          <h3 class="haircut-name">Modern Mullet</h3>
+          <span class="haircut-price">Atrevido</span>
+          <a href="https://wa.me/59175233556?text=Quiero%20agendar%20un%20corte%20Modern%20Mullet" target="_blank" class="haircut-cta">Quiero este estilo</a>
+        </div>
+      </div>
+      <div class="haircut-card">
+        <img src="img/promo-ondas.png" alt="Ondas">
+        <div class="haircut-overlay">
+          <h3 class="haircut-name">Ondas Semionduladas</h3>
+          <span class="haircut-price">Textura</span>
+          <a href="https://wa.me/59175233556?text=Quiero%20agendar%20unas%20ondas" target="_blank" class="haircut-cta">Quiero este estilo</a>
+        </div>
+      </div>
+      <div class="haircut-card">
+        <img src="img/haircut-women.png" alt="Corte Femenino">
+        <div class="haircut-overlay">
+          <h3 class="haircut-name">Bob Moderno</h3>
+          <span class="haircut-price">Mujeres</span>
+          <a href="https://wa.me/59175233556?text=Quiero%20agendar%20un%20corte%20Bob" target="_blank" class="haircut-cta">Quiero este estilo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS / UP-SELLING -->
+  <section id="productos" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">Cuidado Personal</span>
+      <h2 class="section-title">Catálogo de <span class="highlight">Productos</span></h2>
+      <p class="section-subtitle">Lleva la experiencia Black Monkey a tu casa con nuestra selección de productos premium para el cuidado de tu cabello y barba.</p>
+      <div class="divider"></div>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="img/product-beard-oil.png" alt="Aceite para Barba" class="product-img">
+        <div class="product-info">
+          <h3 class="product-name">Aceite Hidratante para Barba</h3>
+          <p class="product-desc">Nutre y suaviza tu barba con nuestra mezcla de aceites esenciales. Previene la picazón y da un brillo natural.</p>
+          <a href="https://wa.me/59175233556?text=Hola,%20quisiera%20consultar%20la%20disponibilidad%20del%20Aceite%20para%20Barba." target="_blank" class="product-btn">Consultar en WhatsApp</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/product-hair-wax.png" alt="Cera para Cabello" class="product-img">
+        <div class="product-info">
+          <h3 class="product-name">Pomada Mate Alta Fijación</h3>
+          <p class="product-desc">Cera de textura mate que ofrece un control total y un acabado natural que dura todo el día sin dejar residuos.</p>
+          <a href="https://wa.me/59175233556?text=Hola,%20quisiera%20consultar%20la%20disponibilidad%20de%20la%20Pomada%20Mate." target="_blank" class="product-btn">Consultar en WhatsApp</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/product-minoxidil.png" alt="Minoxidil" class="product-img">
+        <div class="product-info">
+          <h3 class="product-name">Sérum Crecimiento (Minoxidil 5%)</h3>
+          <p class="product-desc">Estimula el crecimiento del cabello y la barba de forma comprobada. Fortalece los folículos debilitados.</p>
+          <a href="https://wa.me/59175233556?text=Hola,%20quisiera%20consultar%20la%20disponibilidad%20del%20Sérum%20Minoxidil." target="_blank" class="product-btn">Consultar en WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BARBER PROFILE (STORYTELLING) -->
+  <section id="nosotros" class="section reveal">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="img/barber-profile.png" alt="Barbero trabajando">
+        <div class="about-badge">
+          <span>+5 Años de Experiencia</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-tag">Quién Soy</span>
+        <h3>Pasión por los Detalles</h3>
+        <p>Hola, bienvenidos a Black Monkey. Mi visión siempre ha sido crear más que una barbería; quería construir un espacio donde la técnica impecable se encuentre con la elegancia y el buen gusto.</p>
+        <p>Cada corte es una obra de arte para mí. Me enfoco en entender el estilo de cada persona que se sienta en mi silla, adaptando las tendencias modernas a sus rasgos únicos. No solo se trata de cortar el cabello, se trata de potenciar tu confianza.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Dedicación</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">5k+</div>
+            <div class="stat-label">Clientes Felices</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOOGLE MAPS & LOCATION -->
+  <section class="map-section section reveal">
+    <div class="map-container">
+      <div class="map-info">
+        <span class="section-tag">Ubicación</span>
+        <h3>¿Cómo llegar a Black Monkey?</h3>
+        <p>Estamos ubicados en una zona accesible. Te invitamos a vivir la experiencia en nuestras instalaciones equipadas con todo lo necesario para tu comodidad.</p>
+        <div class="address-line">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Avenida Principal, Zona Centro, La Paz</span> <!-- Reemplazar con dir real -->
+        </div>
+        <div class="map-buttons">
+          <!-- Waze URL (geo:lat,lng or direct link) -->
+          <a href="https://waze.com/ul" target="_blank" class="map-btn primary">Abrir en Waze</a>
+          <a href="https://maps.google.com" target="_blank" class="map-btn secondary">Abrir en Google Maps</a>
+        </div>
+      </div>
+      <div class="map-embed">
+        <!-- Embed genérico de google maps, en un proyecto real se cambia el iframe -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115681.29592731265!2d-68.22539181666497!3d-16.521876353982888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04f5a40f%3A0x57dbfaaed9b35696!2sLa%20Paz!5e0!3m2!1ses!2sbo!4v1715000000000!5m2!1ses!2sbo" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">Preguntas Frecuentes</span>
+      <h2 class="section-title">Resuelve tus <span class="highlight">Dudas</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Aceptas tarjeta o transferencia?
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sí, aceptamos pagos en efectivo, transferencias bancarias mediante QR y principales tarjetas de débito/crédito. Priorizamos tu comodidad al momento de pagar.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Trabajas solo por cita o por orden de llegada?
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Para garantizar una atención premium y sin apuros, trabajamos <strong>principalmente por cita</strong>. Puedes venir por orden de llegada, pero estarás sujeto a la disponibilidad del momento. Te recomendamos reservar.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Hay parqueo cerca?
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Contamos con espacio para estacionar justo en frente de la barbería y hay un parqueo público seguro a media cuadra de distancia.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Haces cortes para niños?
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sí, realizamos cortes para niños. Nos aseguramos de que se sientan cómodos y tengan una experiencia agradable mientras reciben un corte con el mismo nivel de detalle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <img src="img/logo.png" alt="Black Monkey">
+          <span>BLACK MONKEY</span>
+        </div>
+        <p>Elegancia, precisión y actitud. Más que un corte, una experiencia premium para tu imagen personal.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Enlaces Rápidos</h4>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#cortes">Estilos</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+        <div class="social-icons">
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 BLACK MONKEY Barbería. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/59175233556" target="_blank" class="whatsapp-float">
+    <div class="whatsapp-btn">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+      </svg>
+      <span>WhatsApp</span>
+    </div>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
